@@ -30,7 +30,23 @@ body{
 .container{
     max-width: 1294px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
+}
+
+.btn{
+    padding: 14px 53px;
+    min-width: 170px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    background-color: #ffffff00;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+nav{
+    padding: 8px;
 }
 
 .navbar{
@@ -51,9 +67,102 @@ body{
     cursor: pointer;
 }
 
+.navbar__menu-list:hover .navbar__link{
+    color:cornflowerblue;
+}
+
+.navbar__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
 .navbar__icons{
     display: flex;
     align-items: center;
     min-width: 5%;
     justify-content: space-between;
 }
+
+header{
+    padding-top: 8px;
+    background: #DCE5E2;
+    border-radius: 32px;
+}
+
+.hero{
+    display: flex;
+    position: relative;
+    background-image: url(../imges/IMAGE.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;   
+    min-height: 550px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .hero{
+        background-image: url(../imges/IMAGE@2x.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        min-height: 550px;
+    }
+  }
+
+  .hero__vector{
+    margin-right: 34px;
+  }
+
+  .hero__vector-s{
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    top: 275px;
+}
+
+  .hero__description{
+    align-self: center;
+    justify-items: flex-start;
+  }
+
+  .hero__description-title{
+    max-width: 570px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+  }
+
+  .hero__description-text{
+    margin-top: 22px;
+    margin-bottom: 23px;
+    max-width: 565px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .hero__lines{
+    position: absolute;
+    bottom: 34px;
+    left: 266px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-width: 55%;
+  }
+
+  .hero__lines-item{
+    display: block;
+    width: 194px;
+    height: 2px;
+    background-color: var(--primary-color);
+  }
