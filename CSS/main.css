@@ -99,7 +99,7 @@ header{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;   
-    min-height: 550px;
+    min-height: 85vh;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -113,7 +113,7 @@ header{
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: bottom;
-        min-height: 550px;
+        min-height: 85vh;
     }
   }
 
@@ -165,4 +165,205 @@ header{
     width: 194px;
     height: 2px;
     background-color: var(--primary-color);
+  }
+
+.categories{
+    padding-top: 73px;
+    padding-bottom: 57px;
+}
+
+  .categories__title{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .categories__text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+    margin-bottom: 55px;
+    max-width: 500px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  .categories__blocks{
+    display: flex;
+    align-items: flex-start;
+   column-gap: 8px;
+}
+
+  .categories__blocks-wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 41px;
+  }
+
+  .categories__blocks-wrap--item:nth-child(1){
+    padding-right: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    min-height: 472px;
+    min-width: 639px;
+    background: #FFFFFF;
+    background-image: url(../imges/note-book.png);
+    background-repeat: no-repeat;
+    background-position-x: 42px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    background-color: #FFFFFF;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+        .categories__blocks-wrap--item:nth-child(1){
+            min-height: 472px;
+            min-width: 639px;
+            background-image: url(../imges/note-book2x.png);
+            background-repeat: no-repeat;
+            background-position-x: 42px;
+        }
+  }
+
+  .wrap__item-toptitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .wrap__item-title{
+    max-width: 192px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .categories__blocks-wrap--item:nth-child(2){
+    padding-right: 42px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    min-width: 639px;
+    min-height: 270px;
+    background-image: url(../imges/oc.png);
+    background-repeat: no-repeat;
+    background-position-x: 42px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    background-color: #FFFFFF;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .categories__blocks-wrap--item:nth-child(2){
+        background-image: url(../imges/oc2x.png);
+        background-repeat: no-repeat;
+        background-position-x: 42px;
+    }
+  }
+
+  .categories__blocks-flex{
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+  }
+
+  .categories__blocks-flex--item:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 144px 31px;
+    background-image: url(../imges/inv.png);
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: 144px;
+    min-width: 312px;
+    min-height: 792px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .categories__blocks-flex--item:nth-child(1){
+        background-image: url(../imges/inv2x.png);
+        background-repeat: no-repeat;
+        background-position-x: 16px;
+        background-position-y: 144px;
+        min-width: 312px;
+        min-height: 792px;
+    }
+  }
+
+  .categories__blocks-flex--item:nth-child(2){
+    padding: 114px 39px;
+    text-align: center;
+    min-width: 312px;
+    min-height: 792px;
+    background-image: url(../imges/hand=phone.png);
+    background-repeat: no-repeat;
+    background-position-y: 252px;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+    background-color: #FFFFFF;
+  }
+  
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .categories__blocks-flex--item:nth-child(2){
+        min-width: 312px;
+        min-height: 792px;
+        background-image: url(../imges/hand-phone2x.png);
+        background-repeat: no-repeat;
+        background-position-y: 252px;
+    }
+  }
+
+  .flex__toptitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .flex__title{
+    max-width: 250px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .categories__blocks-flex--item:nth-child(1):hover, .categories__blocks-flex--item:nth-child(2):hover, .categories__blocks-wrap--item:nth-child(1):hover, .categories__blocks-wrap--item:nth-child(2):hover{
+    color: rgb(100, 100, 237);
+    transition: 0.1s;
   }
