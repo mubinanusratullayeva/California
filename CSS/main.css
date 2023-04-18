@@ -43,6 +43,7 @@ body{
     font-size: 18px;
     line-height: 22px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 nav{
@@ -370,6 +371,7 @@ header{
 
   .cards{
     padding-top: 57px;
+    padding-bottom: 37px;
   }
 
   .cards__title{
@@ -509,4 +511,134 @@ header{
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+  }
+
+  .sell{
+    padding-top: 37px;
+  }
+
+  .sell__title{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .sell__subtitle{
+    margin-top: 9px;
+    text-align: center;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .sell__cards{
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sell__cards-item{
+    padding: 41px 77px 0;
+    min-height: 453px;
+    max-width: 413px;
+    background-color: #F8F9FA;
+    border-radius: 16px;
+    text-align: center;
+  }
+
+  .sell__cards-item:nth-child(1){
+    background-image: url(../imges/dublew.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size:auto;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .sell__cards-item:nth-child(1){
+      background-image: url(../imges/duble2x.png);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 24px;
+      background-position-x: center;
+      background-position-y: bottom;
+      background-size: auto;
+    }
+  }
+
+  .sell__cards-item:nth-child(2){
+    background-image: url(../imges/cbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .sell__cards-item:nth-child(2){
+      background-image: url(../imges/cbg2x.png);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 24px;
+      background-position-x: center;
+      background-position-y: bottom;
+      background-size: auto;
+    }
+  }
+
+  .sell__cards-item:nth-child(3){
+    background-image: url(../imges/cbg3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .sell__cards-item:nth-child(3){
+      background-image: url(../imges/cbg32x.png);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 24px;
+      background-position-x: center;
+      background-position-y: bottom;
+      background-size: auto;
+    }
+  }
+
+  .sell__cards-item--toptitle{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .sell__cards-item--title{
+    margin-bottom: 30px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
   }
