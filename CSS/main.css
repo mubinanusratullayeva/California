@@ -642,3 +642,78 @@ header{
     font-size: 28px;
     line-height: 35px;
   }
+
+  .ideas{
+    margin-top: 75px;
+  }
+
+  .ideas__title{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .ideas__subtitle{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 9px;
+  }
+
+  .ideas__hero{
+  margin-top: 56px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+  }
+
+  .ideas__hero-deco{
+    background-image: url(../imges/white-book.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 420px;
+    min-width: 620px;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx){
+    .ideas__hero-deco{
+      background-image: url(../imges/white-book2x.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      min-height: 420px;
+      min-width: 620px;
+    }
+  }
+
+  .ideas__hero-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 28px;
+  }
+
+  .ideas__hero-description--text{
+    max-width: 569px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .ideas__smth{
+    display: block;
+    margin-top: 73px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+  }
