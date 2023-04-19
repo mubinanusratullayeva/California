@@ -644,7 +644,8 @@ header{
   }
 
   .ideas{
-    margin-top: 75px;
+    padding-top: 75px;
+    padding-bottom: 24px;
   }
 
   .ideas__title{
@@ -716,4 +717,73 @@ header{
     line-height: 29px;
     text-align: center;
     text-transform: capitalize;
+  }
+
+  .miss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 47px 0;
+    min-width: 935px;
+    min-height: 450px;
+    background-color: #DCE5E2;
+    border-radius: 16px;
+    background-image: url(../imges/miss.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .miss__title{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .miss__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .miss__validation{
+   margin-top: 228px;
+   display: flex;
+   align-items: center;
+  }
+
+  .miss__validation-gm{
+    padding: 16px 0 16px 32px;
+    min-width: 285px;
+    background-color: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+  }
+
+  .miss__validation-gm::placeholder{
+    font-family: var(--optional-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+  .miss__validation-sub{
+    min-height: 49.5px;
+    min-width: 115px;
+    padding: 16px 32px;
+    background-color: #000000;
+    border-radius: 0px 200px 200px 0px;
+    font-family: var(--optional-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
   }
