@@ -44,6 +44,12 @@ body{
     line-height: 22px;
     text-transform: capitalize;
     cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn:hover{
+   color: #FFFFFF;
+   background-color: #000000;
 }
 
 nav{
@@ -719,12 +725,17 @@ header{
     text-transform: capitalize;
   }
 
+  .messi{
+    padding-bottom: 19px;
+  }
+
   .miss{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 47px 0;
-    min-width: 935px;
+    max-width: 935px;
     min-height: 450px;
     background-color: #DCE5E2;
     border-radius: 16px;
@@ -786,4 +797,81 @@ header{
     color: #FFFFFF;
     cursor: pointer;
     border: none;
+  }
+
+  footer{
+    background-color: #F8F9FA;
+    border-top: 1px solid #DCE5E2;
+    padding-top: 55px;
+  }
+
+  .cali-footi{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 64px;
+  }
+
+  .cali-footi__desc-text{
+    margin-top: 18px;
+    max-width: 304px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .cali-footi__menu-title{
+    margin-bottom: 19px;
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .cali-footi__menu-list--link{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 14px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--primary-color);
+  }
+
+  .cali-footi__menu-list--link:hover{
+    color: blue;
+  }
+
+  .webflow{
+    border-top: 1px solid #DCE5E2;
+    padding: 52px 0 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .webflow__title{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .webflow__sectitle{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .webflow__sectitle-main{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .webflow__title-main{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
   }
