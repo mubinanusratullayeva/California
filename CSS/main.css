@@ -105,8 +105,8 @@ header{
     background-image: url(../imges/IMAGE.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: bottom;   
-    min-height: 85vh;
+    background-position-y: bottom;  
+    padding: 149px 0 127px; 
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
